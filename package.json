@@ -10,7 +10,7 @@
         "lint": "eslint ."
     },
     "engines": {
-        "node": "20.x || 22.x || 24.x || 25.x"
+        "node": ">=20.9.0"
     },
     "repository": {
         "type": "git",
