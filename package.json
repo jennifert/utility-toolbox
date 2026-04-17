@@ -1,32 +1,41 @@
 {
-  "name": "utility-toolbox",
-  "version": "0.1.0",
-  "description": "Practical browser-based utilities with privacy in mind.",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint ."
-  },
-  "engines": {
-    "node": ">=20.9.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jennifert/utility-toolbox.git"
-  },
-  "keywords": [
-    "utilities",
-    "privacy",
-    "tools",
-    "calculators",
-    "nextjs"
-  ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jennifert/utility-toolbox/issues"
-  },
-  "homepage": "https://github.com/jennifert/utility-toolbox#readme"
+    "name": "utility-toolbox",
+    "version": "0.1.0",
+    "description": "Practical browser-based utilities with privacy in mind.",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint ."
+    },
+    "engines": {
+        "node": "20.x || 22.x || 24.x || 25.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jennifert/utility-toolbox.git"
+    },
+    "keywords": [
+        "utilities",
+        "privacy",
+        "tools",
+        "calculators",
+        "nextjs"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jennifert/utility-toolbox/issues"
+    },
+    "homepage": "https://github.com/jennifert/utility-toolbox#readme",
+    "dependencies": {
+        "next": "^16.2.4",
+        "react": "^19.2.5",
+        "react-dom": "^19.2.5"
+    },
+    "devDependencies": {
+        "eslint": "^9.39.4",
+        "eslint-config-next": "^16.2.4"
+    }
 }
