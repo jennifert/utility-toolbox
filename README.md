@@ -3,6 +3,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
 [![ESLint](https://img.shields.io/badge/ESLint-9-purple?logo=eslint)](https://eslint.org/)
+[![Pico CSS](https://img.shields.io/badge/Pico_CSS-v2-0E7490)](https://picocss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 **Utility Toolbox** is a privacy-first collection of practical browser-based utilities.
@@ -37,7 +38,7 @@ This project is designed to stay simple, lightweight, and respectful of user pri
 
 ## Requirements
 
-- Node.js: 20.x, 22.x, or 24.x
+- Node.js: >=20.9.0
 - npm: recent version recommended
 
 ## Version Information
@@ -45,6 +46,7 @@ This project is designed to stay simple, lightweight, and respectful of user pri
 - Next.js: 16.x
 - React / React DOM: 19.x
 - ESLint: 9.x
+- Pico CSS: 2.x
 
 ## Current Stack
 
@@ -52,6 +54,8 @@ This project currently uses:
 
 - **Next.js** for routing and static page generation
 - **React** for components
+- **Pico CSS (classless)** for base styling
+- **Custom CSS** in `styles/style.css` for layout and site-specific tweaks
 - **Plain JavaScript pages** for a lightweight setup
 - **ESLint** for linting
 
