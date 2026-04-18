@@ -17,7 +17,7 @@ export default function Header() {
       </span>
 
       <nav aria-label="Site menu">
-        <ul>
+        <ul className="site-nav">
           <li>
             <Link
               href="/about"
@@ -26,6 +26,20 @@ export default function Header() {
             >
               About
             </Link>
+          </li>
+
+          <li className="tools-menu">
+            <details>
+              <summary>Tools</summary>
+              <ul className="tools-dropdown">
+                <li>
+                  <Link href="/tools/image-ratio">Image ratio</Link>
+                </li>
+                <li>
+                  <Link href="/tools/mailto-encoder">Mailto encoder</Link>
+                </li>
+              </ul>
+            </details>
           </li>
         </ul>
       </nav>
