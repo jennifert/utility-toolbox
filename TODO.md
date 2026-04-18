@@ -8,7 +8,7 @@
 - [x] Add MIT license
 - [x] Finalize package.json
 - [x] Set up basic Next.js pages structure
-- [ ] Confirm static export setup works
+- [x] Confirm static export setup works
 - [x] Add .gitignore
 - [x] Add initial README
 

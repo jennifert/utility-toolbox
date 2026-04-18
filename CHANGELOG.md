@@ -11,11 +11,17 @@ This project uses a simple changelog format with the following sections when nee
 ## [Unreleased]
 
 ### Added
-- Initial project setup
-- Project roadmap and MVP planning
+- Initial Next.js project setup
+- Base site shell with shared layout, header, and footer
+- Home page
+- About page
+- Privacy Policy page
+- Basic documentation files
+- MIT license
+- robots.txt and humans.txt
+- Static container deployment for initial testing
 
 ### Changed
-- Selected project name: Utility Toolbox
-- Selected tagline: Small tools you can trust
-- Chose MIT license
-- Set up base package configuration
+- Finalized project name: Utility Toolbox
+- Finalized tagline: Small tools you can trust
+- Simplified project structure for the new site
