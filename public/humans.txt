@@ -8,13 +8,10 @@ Last update: 2026-04-20
 Language: English (Canada)
 DocType: HTML5
 Standards: HTML5, CSS, JavaScript (ES6+)
-Components: Next.js 16.x, React 19.x, MDX, Pico CSS, ESLint, RSS/XML
+Components: Next.js 16.x, React 19.x, MDX, Pico CSS, ESLint
 Build Tools: Node.js, Webpack (via Next)
 Static Output: next export
-Search: Static meta.json, no API
-Accessibility: Keyboard navigation, ARIA, screen reader friendly
 
 /* DESIGN & TOOLS */
 Editor: VS Codium
-Design Tools: Figma, Affinity Photo
 Icons: Currently text-based
