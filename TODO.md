@@ -3,15 +3,14 @@
 ## 🔝 Current Top Priorities
 
 ### 🏗️ Project Setup & Foundation
-- [ ] Create GitHub repo
-- [ ] Keep repo private during initial setup
-- [ ] Add MIT license
-- [ ] Finalize package.json
-- [ ] Remove old MDX-related config/packages
-- [ ] Set up basic Next.js pages structure
+- [x] Create GitHub repo
+- [x] Keep repo private during initial setup
+- [x] Add MIT license
+- [x] Finalize package.json
+- [x] Set up basic Next.js pages structure
 - [ ] Confirm static export setup works
-- [ ] Add .gitignore
-- [ ] Add initial README
+- [x] Add .gitignore
+- [x] Add initial README
 
 ### 🧰 MVP 1 Tools
 - [ ] Build homepage shell
@@ -24,19 +23,19 @@
 - [ ] Add form validation and error handling
 
 ### 🔐 Privacy & Trust
-- [ ] Write Privacy Policy page
-- [ ] Write About page
+- [x] Write Privacy Policy page
+- [x] Write About page
 - [ ] Add GitHub Issues link for support/feature requests
 - [ ] Add clear “no ads / no tracking” messaging
 - [ ] Add note explaining local-only file handling
 - [ ] Decide how to describe localStorage/settings usage
 
 ### 🎨 Branding & UI
-- [ ] Confirm site name: Utility Toolbox
-- [ ] Confirm tagline: Small tools you can trust
-- [ ] Add simple header/footer
-- [ ] Add nav links: Home / About / Privacy / GitHub
-- [ ] Keep styling lightweight and local-only
+- [x] Confirm site name: Utility Toolbox
+- [x] Confirm tagline: Small tools you can trust
+- [x] Add simple header/footer
+- [x] Add nav links: Home / About / Privacy / GitHub
+- [x] Keep styling lightweight and local-only
 - [ ] Add favicon/site icon later
 
 ### ⚙️ Settings & Preferences
