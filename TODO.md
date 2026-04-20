@@ -13,13 +13,13 @@
 - [x] Add initial README
 
 ### 🧰 MVP 1 Tools
-- [ ] Build homepage shell
+- [x] Build homepage shell
 - [ ] Build image ratio calculator
 - [ ] Add preserve aspect ratio logic
 - [ ] Add optional local image upload for width/height autofill
 - [ ] Make clear that image processing stays client-side
-- [ ] Build mailto encoder tool
-- [ ] Add copy-to-clipboard buttons where helpful
+- [x] Build mailto encoder tool
+- [x] Add copy-to-clipboard buttons where helpful
 - [ ] Add form validation and error handling
 
 ### 🔐 Privacy & Trust
