@@ -15,20 +15,23 @@ export default function Privacy() {
 
       <section>
         <h1>{POST_TITLE}</h1>
+
         <p>
-          <strong>Last updated:</strong> April 14, 2026
+          <strong>Last updated:</strong> August 28, 2026
         </p>
 
         <p>
-          Utility Toolbox is designed to respect your privacy. This site aims to
-          provide practical browser-based tools without ads, tracking, or
-          unnecessary collection of personal information.
+          Utility Toolbox is designed to respect your privacy. This site provides
+          practical browser-based tools without ads, tracking, or unnecessary
+          collection of personal information.
         </p>
       </section>
 
       <section>
         <h2>What Utility Toolbox does not do</h2>
+
         <p>Utility Toolbox does not:</p>
+
         <ul>
           <li>Require user accounts</li>
           <li>Show ads</li>
@@ -36,69 +39,106 @@ export default function Privacy() {
           <li>Use analytics for visitor profiling</li>
           <li>Sell personal information</li>
           <li>
-            Upload your files for server-side processing when a tool is designed
-            to work locally in your browser
+            Send tool input to a server when the calculation or processing can
+            be performed locally in your browser
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Local processing</h2>
+
         <p>
-          Where possible, tools on this site work locally in your browser.
+          Where possible, Utility Toolbox performs calculations and processing
+          directly in your browser.
+        </p>
+
+        <h3>Image Ratio Calculator</h3>
+
+        <p>
+          The Image Ratio Calculator performs its dimension and aspect ratio
+          calculations locally in your browser. The width and height values you
+          enter are not sent to Utility Toolbox for processing.
+        </p>
+
+        <h3>Mailto Encoder</h3>
+
+        <p>
+          The Mailto Encoder generates the <code>mailto:</code> link locally in
+          your browser. Email addresses, subject lines, and message contents
+          entered into the tool are not sent to Utility Toolbox for processing.
+        </p>
+      </section>
+
+      <section>
+        <h2>Image files</h2>
+
+        <p>
+          Utility Toolbox does not currently require you to upload an image to
+          use the Image Ratio Calculator.
         </p>
 
         <p>
-          For example, if a tool allows you to select or upload an image file in
-          order to read its dimensions, that file is processed locally on your
-          device for that purpose only. It is not uploaded to the site&apos;s
-          server merely to calculate width, height, or aspect ratio.
-        </p>
-
-        <p>
-          If a tool is described as local-only, its processing is intended to
-          remain in your browser and on your device.
+          A future version may allow you to select a local image so that its
+          dimensions can be detected automatically. If this feature is added,
+          it is intended to read the image locally in your browser without
+          uploading the image to Utility Toolbox for server-side processing.
         </p>
       </section>
 
       <section>
         <h2>Local storage and saved preferences</h2>
+
         <p>
-          Utility Toolbox may store limited preferences in your browser using
-          local storage or similar browser-based storage.
+          Utility Toolbox does not currently require an account or server-side
+          profile to save preferences.
         </p>
 
-        <p>This may include settings such as:</p>
-        <ul>
-          <li>Theme preference</li>
-          <li>Locale preference</li>
-          <li>Preferred units or formatting options</li>
-          <li>Tool-specific preferences</li>
-        </ul>
+        <p>
+          Future versions may store limited settings or preferences using
+          browser-based storage such as <code>localStorage</code>. These may
+          include preferences such as theme, locale, units, formatting, or
+          tool-specific options.
+        </p>
 
         <p>
-          These settings are stored on your device, in your browser, to help the
-          site remember your choices. They are not used for advertising or
+          Browser-based preferences are intended to remain on your device and
+          are not intended for advertising or cross-site tracking.
+        </p>
+
+        <p>
+          If settings import or export is added in the future, an exported
+          settings file will only be created when you choose to export it.
+        </p>
+      </section>
+
+      <section>
+        <h2>Cookies</h2>
+
+        <p>
+          Utility Toolbox does not use cookies for advertising or cross-site
           tracking.
         </p>
 
         <p>
-          If import/export of settings is provided, any exported settings file is
-          created only when you choose to export it.
+          If cookies or other browser storage are introduced for essential site
+          functionality or preferences, this policy will be updated to describe
+          their use.
         </p>
       </section>
 
       <section>
         <h2>GitHub links and issue reporting</h2>
+
         <p>
-          Utility Toolbox may link to GitHub for source code, releases, bug
-          reports, and feature requests.
+          Utility Toolbox links to GitHub for source code, bug reports, feature
+          requests, and other project information.
         </p>
 
         <p>
-          If you choose to visit GitHub or open an issue there, your interaction
-          with GitHub is subject to GitHub&apos;s own terms and privacy
-          practices, not this site&apos;s privacy policy.
+          If you choose to visit GitHub or submit an issue there, your
+          interaction with GitHub is subject to GitHub&apos;s own terms and
+          privacy practices.
         </p>
 
         <p>
@@ -110,6 +150,7 @@ export default function Privacy() {
 
       <section>
         <h2>External resources</h2>
+
         <p>
           Utility Toolbox aims to avoid unnecessary external resources such as
           external fonts, third-party CDNs, and similar dependencies where
@@ -117,47 +158,42 @@ export default function Privacy() {
         </p>
 
         <p>
-          Site assets such as CSS and JavaScript are intended to be served
-          locally by the site itself whenever possible.
-        </p>
-      </section>
-
-      <section>
-        <h2>Cookies</h2>
-        <p>Utility Toolbox is intended to avoid non-essential cookies.</p>
-
-        <p>
-          If browser storage is used for settings or preferences, that storage
-          is used for site functionality rather than advertising or cross-site
-          tracking.
+          Site assets such as CSS and JavaScript are intended to be served by
+          the site itself whenever practical.
         </p>
       </section>
 
       <section>
         <h2>Data retention</h2>
+
         <p>
-          Because Utility Toolbox is designed to minimize collection of personal
-          data, there is generally little or no personal data retained by the
-          site itself for normal use of local browser tools.
+          Utility Toolbox is designed to minimize the collection of personal
+          information. Data entered into tools that operate locally in your
+          browser is not retained by Utility Toolbox as part of those
+          calculations.
         </p>
 
         <p>
-          Preferences stored in your browser remain there until you clear them,
-          reset them, or remove them through your browser settings.
+          If browser-based preferences are introduced in the future, those
+          preferences will remain in your browser until they are cleared or
+          reset.
         </p>
       </section>
 
       <section>
         <h2>Changes to this policy</h2>
+
         <p>
-          This privacy policy may be updated over time to reflect changes to the
-          site or its tools. When changes are made, the &ldquo;Last updated&rdquo;
-          date at the top of this page will be revised.
+          This privacy policy may be updated as Utility Toolbox changes or new
+          tools and features are introduced. When material changes are made, the
+          &ldquo;Last updated&rdquo; date at the top of this page will be
+          revised.
         </p>
       </section>
 
       <section>
         <h2>Contact and support</h2>
+
         <p>
           For bug reports, feature requests, or project feedback, please use the
           project&apos;s GitHub Issues page.

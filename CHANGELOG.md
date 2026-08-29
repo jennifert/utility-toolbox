@@ -51,3 +51,5 @@ This project uses a simple changelog format with the following sections when nee
 - Finalized tagline as **Small tools you can trust**
 - Simplified project structure for the new site
 - Updated project documentation to reflect implemented tools
+- Updated Privacy Policy to document local processing for the Image Ratio Calculator and Mailto Encoder
+- Clarified current and planned browser storage and local image handling
