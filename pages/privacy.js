@@ -128,23 +128,10 @@ export default function Privacy() {
       </section>
 
       <section>
-        <h2>GitHub links and issue reporting</h2>
-
+        <h2>Contact and support</h2>
         <p>
-          Utility Toolbox links to GitHub for source code, bug reports, feature
-          requests, and other project information.
-        </p>
-
-        <p>
-          If you choose to visit GitHub or submit an issue there, your
-          interaction with GitHub is subject to GitHub&apos;s own terms and
-          privacy practices.
-        </p>
-
-        <p>
-          Utility Toolbox does not provide a direct contact form at this time.
-          Project feedback and support requests are handled through GitHub
-          Issues.
+          Public bug reporting and feature request options will be available when
+          Utility Toolbox reaches its first public release.
         </p>
       </section>
 
@@ -188,15 +175,6 @@ export default function Privacy() {
           tools and features are introduced. When material changes are made, the
           &ldquo;Last updated&rdquo; date at the top of this page will be
           revised.
-        </p>
-      </section>
-
-      <section>
-        <h2>Contact and support</h2>
-
-        <p>
-          For bug reports, feature requests, or project feedback, please use the
-          project&apos;s GitHub Issues page.
         </p>
       </section>
     </Layout>

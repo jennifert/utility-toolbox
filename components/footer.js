@@ -7,18 +7,7 @@ export default function Footer() {
         <ul>
           <li>
             <small>
-              <a
-                href="https://github.com/jennifert/utility-toolbox"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </small>
-          </li>
-          <li>
-            <small>
-              <Link href="/privacy">Privacy</Link>
+              <Link href="/privacy/">Privacy</Link>
             </small>
           </li>
           <li>
